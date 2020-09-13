@@ -3,7 +3,6 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color:
 }
 
 h1 {
@@ -35,7 +34,7 @@ a {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #11999E 6px;
   border-bottom: non;
   width: 4%;
   margin: 100px auto;
@@ -60,6 +59,11 @@ a:hover {
 
 .middle-container {
   margin: 100px 0;
+}
+
+.extra-container {
+  background-color: #eaf6f6;
+  padding-top: 50px;
 }
 
 .bottom-container {
@@ -113,13 +117,62 @@ a:hover {
 }
 
 .ML-img {
-  width: 18%;
+  width: 17%;
   float: left;
   margin-right: 30px;
+  border-radius: 100%;
 }
 
 .python-img {
   width: 15%;
   float: right;
   marging-left: 30px;
+  border-radius: 100%;
+}
+
+.skills-Machine-Learning {
+  background-color: #eaf6f6;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* New Section */
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #fff;
+  color: #66bfbf;
+  font-weight: 900;
+  padding-top: 2px;
+}
+
+.testimonial-image1 {
+  width: 15%;
+  margin: 10px;
+}
+
+.testimonial-image2 {
+  width: 13%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 5% 10%;
+}
+
+.testimonial-text {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    outline: black;
+    background-color: #66bfbf;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
 }
