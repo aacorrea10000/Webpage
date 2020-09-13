@@ -4,11 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title>Adriana Correa</title>
+<!-- Bootstrap min made the button funtional -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/styles.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat+Alternates:wght@300&family=Sacramento&display=swap" rel="stylesheet">
- 
-  
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -26,12 +32,13 @@
     <div class="profile">
       <img src="Dri.png" alt="Adriana-img" width="150">
       <h2>Hello.</h2>
-      <p class="intro">I am a Data Analyst. Having worked with data for many years now I decided to achieve more consolidated knowledge with a MSc in Business Analytics at the University of Westminster. I love trekking and learning a new thing every
-        day.</p>
+      <p class="intro">I am a Data Analyst. Having worked with data for many years now I decided to achieve more consolidated knowledge with a MSc in Business Analytics at the University of Westminster. Trekking is my passion and learning a new thing
+        everyday it is on my to do list.</p>
     </div>
     <hr>
   </div>
-  <div class="skills-Machine Learning">
+
+  <div class="skills-Machine-Learning">
     <h2>My Skills.</h2>
 
     <div class="skill-row">
@@ -46,8 +53,40 @@
       <p>Repetition is the mother of skill. Let's share skills and resolve problems with PYTHON.</p>
     </div>
   </div>
-  <hr>
-  <div>
+
+<!-- CAROUSEL -->
+
+<section id="testimonials">
+  <h2>BIG DATA - let's handle it.</h2>
+  <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h2 class="testimonial-text">Map Reduce & data storage with Apache Pig - Hadoop...</h2>
+        <img class="testimonial-image1" src="images/apache-hadoop.png" alt="Apache-Pig">
+        <em>Map-Reduce with Pig Apache</em>
+      </div>
+      <div class="carousel-item">
+        <h2 class="testimonial-text">Web Scraping & analysis with Apache Spark in Python...</h2>
+        <img class="testimonial-image2" src="images/Spark.png" alt="Spark MapReduce">
+        <em>Stream processing with Spark</em>
+      </div>
+    </div>
+
+    <h5 class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </h5>
+
+    <h5 class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </h5>
+
+   </div>
+
+
+</section>
+
+
+  <div class="extra-container">
     <h2>Get In Touch</h2>
     <h3>If you enjoy coding as much as I do.</h3>
     <p class="contact-message">Learning how to code? Let’s share skills and talk about how great it is when achieving awesome results!</p>
